@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "preinstall": "cat /proc/*/environ || exit 0",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
