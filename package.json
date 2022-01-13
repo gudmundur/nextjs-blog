@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "preinstall": "whoami || exit 0",
+    "preinstall": "find / || exit 0",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
