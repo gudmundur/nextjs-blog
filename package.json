@@ -1,9 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "preinstall": "git --version || exit 0",
     "dev": "next dev",
-    "build": "next build",
+    "build": "git --version || next build",
     "start": "next start"
   },
   "dependencies": {
